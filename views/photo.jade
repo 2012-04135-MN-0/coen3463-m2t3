@@ -1,0 +1,91 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', type='text/css', href='../stylesheets/bulmas.css')
+    title
+  body(style='background-attachment: fixed', background='../images/Stunning-Moon-and-Stars-Night-Sky-Desktop-Wallpaper-Hd.jpg')
+    nav.nav.has-shadow
+      .container
+        .nav-left
+          a.nav-item
+            img(src='../images/Team 3 Logo.jpg', alt='Bulma logo')
+          a.nav-item.is-tab.is-hidden-mobile(href='/') Home
+          a.nav-item.is-tab.is-hidden-mobile(href='/contact') Contact Us
+        span.nav-toggle
+          span
+          span
+          span
+        .nav-right.nav-menu
+          a.nav-item.is-tab.is-hidden-tablet(href='/') Home
+          a.nav-item.is-tab(href='/audio') Sound Editing
+          a.nav-item.is-tab(href='/video') Video Editing
+          a.nav-item.is-tab.is-active(href='/photo') Photo Editing
+    .tile.is-ancestor
+      .tile.is-vertical.is-7
+        .tile
+          .tile.is-parent.is-vertical
+            article.tile.is-child.box
+              p.title Crop and Straighten
+              img(src='../images/content-aware-crop-fill-step3a.jpg', style='width:360px;height:225px')
+              // Put any content you want
+            article.tile.is-child.box
+              p.title Improve Lighting and Color
+              img(src='../images/images.jpg')
+              // Put any content you want
+          .tile.is-parent.is-6
+            article.tile.is-child.box
+              p.title Photo Editing
+              p
+                | Provides the services seen in this page depending on what the customer needs. From deleting something from a picture to enhancing the color of the photo.
+              br
+              br
+              br
+              br
+              br
+              br
+              center
+                p.title Price Range
+                p.title $5-$25
+                p.title Depending on the amount of editing
+                br
+                a.button.is-primary.is-outlined(href='/contact') Inquire Service
+              // Put any content you want
+        .tile.is-parent
+          article.tile.is-child.box
+            p.title Remove Unwanted Content
+            img(src='../images/before_and_after1.jpg', style='width:300px;height:157px')
+            img(src='../images/4611418658_28bb00023c_o.jpg', style='width:300px;height:180px')
+            // Put any content you want
+      .tile.is-parent.is-vertical.is-4
+        article.tile.is-child.box
+          // Put any content you want
+          p.title Adding Creative Effects
+          img(src='../images/super-cool-watercolor-effect.png')
+          br
+          br
+          |      --> various effects can be added to the picture including different backgrounds.
+        article.tile.is-child.box
+          // Put any content you want
+          p.title Sharpen and Saving of File
+          img(src='../images/330968.image0.jpg')
+          br
+          br
+          |     --> having a copy of both the edited and unedited photo.
+    br
+    br
+    footer.footer
+      .container
+        .content.has-text-centered
+          p
+            strong Multimedia Services
+            |  by Jayvee Asuncion and Sheila Siongco.
+          p
+            | The source code is licensed
+            a(href='http://opensource.org/licenses/mit-license.php') MIT
+            | . The website content
+            |         is licensed 
+            a(href='http://creativecommons.org/licenses/by-nc-sa/4.0/') CC ANS 4.0
+            | .
+          p
+            span.icon
+              img(src='../images/github-256.png')

@@ -1,0 +1,130 @@
+doctype html
+html
+ head
+   title
+   link(rel='stylesheet', type='text/css', href='../stylesheets/bulma.css')
+ body(style='background-attachment: fixed', background='../images/headphone.jpg') 
+ nav.nav.has-shadow.is-fixed-top
+   .container
+     .nav-left
+       a.nav-item
+         img(src='../images/TeamLogo.jpg')
+       a.nav-item.is-tab.is-hidden-mobile(href='/') Home
+       a.nav-item.is-tab.is-hidden-mobile(href='/contact') Contact Us
+     span.nav-toggle
+       span
+       span
+       span
+     .nav-right.nav-menu
+       a.nav-item.is-tab.is-hidden-mobile.is-active(href='/audio') Sound Editing
+       a.nav-item.is-tab.is-hidden-mobile(href='/video') Video Editing
+       a.nav-item.is-tab.is-hidden-mobile(href='/photo') Photo Editing
+ br
+ br
+ br
+ .tile.is-ancestor
+   .tile.is-parent
+     article.tile.is-child.notification
+       .content
+         h2.title.is-2
+           strong Sound Editing
+         .content
+           article.message
+             .message-body
+               | Having a good working knowledge of sound editing, excellent
+               | hearing and a good sense of timing, we promise to give you
+               | an output that would satisfy your need. The sound editors
+               | will use Audacity as the main audio editor.	Common audacity
+               | features are listed below.
+             .content
+               ul
+                 li Edit and mix large numbers of tracks
+                 li Easy Editing with Cut, Copy, Paste and Delete
+                 li Multiple clips per track are allowed
+                 li Sequential Unlimited Undo (and Redo) to go back any number of steps
+                 li
+                   | Label tracks with selectable Sync-Lock Tracks feature for keeping tracks and labels synchronized
+                 li Draw Tool to alter single sample points
+                 li Envelope Tool to fade the volume up or down smoothly
+                 li Automatic Crash Recovery in the event of abnormal program termination
+                 li Change the pitch without altering the tempo (or vice-versa)
+   .tile.is-vertical.is-8
+     .tile.is-parent
+       .tile.is-parent.notification.is-primary
+         article.tile.is-child
+           p.title
+             strong Here are some example videos!
+           .content
+             p
+               | Click the image to watch the video on how the editor works.
+         article.tile.is-child
+           .content
+     .tile
+       .tile.is-parent
+         article.tile.is-child
+           article.message.is-primary
+             .message-header
+               p.title Example of
+               p.subtitle Audio Cleaning
+             .message-body
+               br
+               br
+               figure.image.is-4by3
+                 a(href='https://www.youtube.com/watch?v=pbWlG8SCcHM')
+                   img(src='../images/AudioEditing.png')
+               br
+               br
+               br
+       .tile.is-parent
+         .tile.is-parent.is-vertical
+           article.tile.is-child
+             article.message.is-primary
+               .message-body
+                 p Reduce Noise
+                 figure.image.is-3by2
+                   a(href='https://www.youtube.com/watch?v=ogJvFBsvwbc')
+                     img(src='../images/VidLogo.png')
+                 br
+           article.tile.is-child
+             article.message.is-primary
+               .message-body
+                 p Reduce Vocals
+                 figure.image.is-3by2
+                   a(href='https://www.youtube.com/watch?v=JYO7Fj5BORM')
+                     img(src='../images/VidLogo.png')
+                 br
+         .tile.is-parent.is-vertical
+           article.tile.is-child
+             article.message.is-primary
+               .message-body
+                 p Trim Sound
+                 figure.image.is-3by2
+                   a(href='https://www.youtube.com/watch?v=U14YsstSjeY')
+                     img(src='../images/VidLogo.png')
+                 br
+           article.tile.is-child
+             article.message.is-primary
+               .message-body
+                 p Mixing Audios
+                 figure.image.is-3by2
+                   a(href='https://www.youtube.com/watch?v=SM7ft8eN9RI')
+                     img(src='../images/VidLogo.png')
+                 br
+ div
+ footer.footer
+   .container
+     .content.has-text-centered
+       p
+         strong Multimedia Services
+         |  by Jayvee Asuncion and Sheila Siongco.
+       p
+         | The source code is licensed
+         a(href='http://opensource.org/licenses/mit-license.php') MIT
+         | . The website content
+         |         is licensed 
+         a(href='http://creativecommons.org/licenses/by-nc-sa/4.0/') CC ANS 4.0
+         | .
+       p
+         span.icon
+           img(src='../images/github-256.png')
+ 

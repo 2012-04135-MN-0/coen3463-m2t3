@@ -1,0 +1,79 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', type='text/css', href='../stylesheets/bulmas.css')
+    title
+  body(style='background-attachment: fixed', background='../images/735b1c3ffa53cabdec544f08385ffe7d.jpg')
+    nav.nav.has-shadow
+      .container
+        .nav-left
+          a.nav-item
+            img(src='../images/Team 3 Logo.jpg', alt='Bulma logo')
+          a.nav-item.is-tab.is-hidden-mobile.is-active(href='/') Home
+          a.nav-item.is-tab.is-hidden-mobile(href='/contact') Contact Us
+        span.nav-toggle
+          span
+          span
+          span
+        .nav-right.nav-menu
+          a.nav-item.is-tab.is-hidden-tablet.is-active(href='/') Home
+          a.nav-item.is-tab(href='/audio') Sound Editing
+          a.nav-item.is-tab(href='/video') Video Editing
+          a.nav-item.is-tab(href='/photo') Photo Editing
+    br
+    br
+    .tile.is-ancestor
+      .tile.is-6.is-vertical.is-parent
+        .tile.is-child.notification.is-danger.box
+          p.title Multimedia Services
+          img(background='../images/background.jpg')
+          p
+            | This website offers services regarding three different kinds of multimedia. Solving problems within editing of the said multimedia. Will respond in a fair amount of time with your email
+          p One sample is:
+          center
+            img(src='../images/blue-bottle-colours-cup-edited-fake-Favim.com-60718.jpg', style='width:250px;height:211px')
+          p Services Offered includes: Video Editing, Sound Editing and Photo Editing
+        .tile.is-child.box
+          p.title
+            | Video Editing
+            a.button.is-primary.is-outlined(href='/video') Check Service
+          img(src='../images/video.jpg', style='width:384px;height:215.5px')
+          br
+          br
+          p
+            | --> Adjusting videos according to the audio. adding effects to it by adding more clips to the video. Finalizing arrangement of the video
+      .tile.is-parent.is-vertical.is-5
+        .tile.is-child.box
+          p.title
+            | Sound Editing
+            a.button.is-primary.is-outlined(href='/audio') Check Service
+          img(src='../images/FL-Studio.jpg', style='width:384px;height:215.5px')
+          br
+          br
+          p
+            | --> Removing noise from background, adding sound effects to the audio and remixing music
+        .tile.is-child.box
+          p.title
+            | Photo Editing
+            a.button.is-primary.is-outlined(href='/photo') Check Service
+          img(src='../images/quick-and-easy-way-to.jpg')
+          br
+          br
+          p
+            | --> Editing of photos by making it lighter or adding more color to the picture. adding added effects to a picture like different backgrounds
+    footer.footer
+      .container
+        .content.has-text-centered
+          p
+            strong Multimedia Services
+            |  by Jayvee Asuncion and Sheila Siongco.
+          p
+            | The source code is licensed
+            a(href='http://opensource.org/licenses/mit-license.php') MIT
+            | . The website content
+            |         is licensed 
+            a(href='http://creativecommons.org/licenses/by-nc-sa/4.0/') CC ANS 4.0
+            | .
+          p
+            span.icon
+              img(src='../images/github-256.png')

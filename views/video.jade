@@ -1,0 +1,132 @@
+doctype html
+html
+ head
+   title
+   link(rel='stylesheet', type='text/css', href='../stylesheets/bulma.css')
+ body(style='background-attachment: fixed', background='../images/film.jpg')
+ nav.nav.has-shadow.is-fixed-top
+   .container
+     .nav-left
+       a.nav-item
+         img(src='../images/TeamLogo.jpg')
+       a.nav-item.is-tab.is-hidden-mobile(href='/') Home
+       a.nav-item.is-tab.is-hidden-mobile(href='/contact') Contact Us
+     span.nav-toggle
+       span
+       span
+       span
+     .nav-right.nav-menu
+       a.nav-item.is-tab.is-hidden-mobile(href='/audio') Sound Editing
+       a.nav-item.is-tab.is-hidden-mobile.is-active(href='/video') Video Editing
+       a.nav-item.is-tab.is-hidden-mobile(href='/photo') Photo Editing
+ br
+ br
+ br
+ .tile.is-ancestor
+   .tile.is-parent
+     article.tile.is-child.notification
+       .content
+         h2.title.is-2
+           strong Video Editing
+         .content
+           article.message
+             .message-body
+               | Video editing used to require expensive machines
+               | called video editors, however, today video editing
+               | software is now available for personal computers
+               | and workstations. Adobe After Effects will be the
+               | main video editor to be used. Some AE features are
+               | listed below.
+             .content
+               ul
+                 li Animation Tools
+                 li Color Correction
+                 li Direct Camcorder Capture
+                 li Drag and Drop
+                 li DVD Burning
+                 li Autosave
+                 li Green Screen (Chroma Keying)
+                 li HD Support
+                 li Full Scrren Playback
+                 li Story Display
+                 li Multiple Boards/Sequences
+                 li Keyframing
+   .tile.is-vertical.is-8
+     .tile.is-parent
+       .tile.is-parent.notification.is-primary
+         article.tile.is-child
+           p.title
+             strong Here are some example videos!
+           .content
+             p
+               | Click the image to watch the video on how the editor works.
+         article.tile.is-child
+           .content
+     .tile
+       .tile.is-parent
+         article.tile.is-child
+           article.message.is-primary
+             .message-header
+               p.title Example of
+               p.subtitle Green Screen
+             .message-body
+               br
+               br
+               figure.image.is-4by3
+                 a(href='https://www.youtube.com/watch?v=IEzXKrJ9re4')
+                   img(src='../images/ae.png')
+               br
+               br
+               br
+       .tile.is-parent
+         .tile.is-parent.is-vertical
+           article.tile.is-child
+             article.message.is-primary
+               .message-body
+                 p Color Correction
+                 figure.image.is-3by2
+                   a(href='https://www.youtube.com/watch?v=A0xL16G0Kjs')
+                     img(src='../images/VidLogo.png')
+                 br
+           article.tile.is-child
+             article.message.is-primary
+               .message-body
+                 p DVD Burning
+                 figure.image.is-3by2
+                   a(href='https://www.youtube.com/watch?v=WFyk4QZgm7o')
+                     img(src='../images/VidLogo.png')
+                 br
+         .tile.is-parent.is-vertical
+           article.tile.is-child
+             article.message.is-primary
+               .message-body
+                 p Animation Tools
+                 figure.image.is-3by2
+                   a(href='https://www.youtube.com/watch?v=o1h97XYUByo')
+                     img(src='../images/VidLogo.png')
+                 br
+           article.tile.is-child
+             article.message.is-primary
+               .message-body
+                 p Keyframing
+                 figure.image.is-3by2
+                   a(href='https://www.youtube.com/watch?v=34J09NU0LNg')
+                     img(src='../images/VidLogo.png')
+                 br
+ div
+ footer.footer
+   .container
+     .content.has-text-centered
+       p
+         strong Multimedia Services
+         |  by Jayvee Asuncion and Sheila Siongco.
+       p
+         | The source code is licensed
+         a(href='http://opensource.org/licenses/mit-license.php') MIT
+         | . The website content
+         |         is licensed 
+         a(href='http://creativecommons.org/licenses/by-nc-sa/4.0/') CC ANS 4.0
+         | .
+       p
+         span.icon
+           img(src='../images/github-256.png')
