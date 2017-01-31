@@ -24,30 +24,30 @@ html
     form(method='post',action='/contact/send')
       label.label Name
       p.control
-        input.input(type='text', placeholder='Text input')
+        input.input(type='text', placeholder='Text input', name='name')
       label.label Username
       p.control.has-icon.has-icon-right
-        input.input.is-success(type='text', placeholder='Text input', value='bulma')
+        input.input.is-success(type='text', placeholder='Text input', value='bulma', name='username')
         span.icon.is-small
           i.fa.fa-check
         span.help.is-success This username is available
       label.label Email
       p.control.has-icon.has-icon-right
-        input.input.is-danger(type='text', placeholder='Email input', value='hello@')
+        input.input.is-danger(type='text', placeholder='Email input', value='hello@', name='email')
         span.icon.is-small
           i.fa.fa-warning
         span.help.is-danger This email is invalid
       label.label Subject
       p.control
         span.select
-          select
+          select(name='service')
             option Select dropdown
             option Video Editing
             option Sound Editing
             option Photo Editing
       label.label Message
       p.control
-        textarea.textarea(placeholder='Textarea')
+        textarea.textarea(placeholder='Textarea', name='message')
       p.control
       p.control
       .control.is-grouped

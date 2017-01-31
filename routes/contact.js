@@ -20,8 +20,8 @@ router.post('/send',function(req,res,next){
         from: 'Big Mom',
         to: 'netshwlanshow@gmail.com',
         subject: 'Website Submission',
-        text: 'You have a new request... Name: ' + req.body.name + 'Email: ' +req.body.email+ 'Service' + req.body.service + 'Message: '+ req.body.message,
-        html: '<p>You have a new request..</p><ul><li>Name: '+ req.body.name +'</li><li>Email: '+ req.body.email +'</li><li>Service: '+ req.body.service +'</li><li>Message: '+ req.body.message+'</li></ul>'
+        text: 'You have a new request... Name: ' + req.body.name + 'Username: ' +req.body.username + 'Email: ' +req.body.email+ 'Service' + req.body.service + 'Message: '+ req.body.message,
+        html: '<p>You have a new request..</p><ul><li>Name: '+ req.body.name +'</li><li>Username: '+ req.body.username +'</li><li>Email: '+ req.body.email +'</li><li>Service: '+ req.body.service +'</li><li>Message: '+ req.body.message+'</li></ul>'
         };
     transporter.sendMail(mailOptions, function(error, info){
         if(error){
